@@ -5,11 +5,8 @@ int main(){
     float num1;
     float num2;
 
-<<<<<<< HEAD
     printf("ingrese los numeros\n");
 
-=======
->>>>>>> parent of eef5ede (version 2)
     while (num1 <= 0 || num2 <= 0){
     printf("Ingrese la nota 1: \n"); scanf("%f", &num1);
     printf("Ingrese la nota 2: \n"); scanf("%f", &num2);
