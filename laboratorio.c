@@ -5,7 +5,8 @@ int main(){
     float num1;
     float num2;
 
-    printf("ingrese las notas");
+    printf("ingrese los numeros\n");
+
     while (num1 <= 0 || num2 <= 0){
     printf("Ingrese la nota 1: \n"); scanf("%f", &num1);
     printf("Ingrese la nota 2: \n"); scanf("%f", &num2);
@@ -17,8 +18,10 @@ int main(){
 
     if(prom >= 14){
         printf("Aprobado\n");
-    }else{
-        printf("Reprobado\n");
+    }else if(prom < 14 && prom >=11){
+        printf("supletorio\n");
+    }else if(prom <11){
+        printf("reprobado\n");
     }
         }else{
         printf("No se puede ingresar numeros negativos\n");
