@@ -28,7 +28,7 @@ int main(){
     }
         }else{
         printf("No se puede ingresar numeros negativos\n");
-
+        printf("por favor ingrese numeros positivos");
         }
     }
     printf("muchas gracias");
