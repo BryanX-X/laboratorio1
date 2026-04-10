@@ -18,10 +18,13 @@ int main(){
 
     if(prom >= 14){
         printf("Aprobado\n");
+        printf("felices vacaciones\n");
     }else if(prom < 14 && prom >=11){
         printf("supletorio\n");
+        printf("esfuerzate mas\n");
     }else if(prom <11){
         printf("reprobado\n");
+        printf("suerte a la proxima\n");
     }
         }else{
         printf("No se puede ingresar numeros negativos\n");
